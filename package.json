@@ -1,0 +1,42 @@
+{
+  "name": "toast",
+  "version": "0.0.1",
+  "description": "",
+  "keywords": [
+    "boilerplate",
+    "fs",
+    "cli"
+  ],
+  "author": "Abi Raja <abii@stanford.edu> (http://abi.sh)",
+  "licenses": [
+    {
+      "type": "MIT"
+    }
+  ],
+  "scripts": {
+    "prepublish": "coffee -o lib/ -c ./src/toast.coffee",
+    "test": "coffee examples/example.coffee"
+  },
+  "bin": {
+      "toast" : "./cli.js"
+  },
+  "dependencies": {
+      "node_util": "",
+      "termspeak": ""
+  },
+  "main": "./lib/toast.js",
+  "engines": {
+    "node": ">=0.4.x"
+  },
+  "directories": {
+    "example": "./examples",
+    "lib": "./src"
+  },
+  "devDependencies": {
+    "coffee-script": ""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/abi/toast.git"
+  }
+}
