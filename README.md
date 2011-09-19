@@ -1,7 +1,7 @@
 toast
 ===========
 
-Toast helps you declaratively generate directory/file structures (useful for generating test fixtures and boilerplates for project).
+Toast helps you declaratively generate directory/file structures (useful for generating test fixtures and boilerplates for projects).
 
 **This module is not quite ready. Check back in a week or two.**
 
